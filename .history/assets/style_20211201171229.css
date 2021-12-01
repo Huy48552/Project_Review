@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-/* Nav main */
+/* Nav */
 .nav {
     height: 70px;
     display: flex;
@@ -57,8 +57,7 @@ body {
 .nav-item:hover {
     color: #8a96a0;
 }
-
-/* style item `thêm công ty` */
+/* style item Thêm công ty */
 .box {
     padding: 15px 10px;
     background-color: green;
@@ -102,7 +101,6 @@ body {
     border-radius: 10px;
     font-size: 24px;
     border-color: #0066b3;
-    padding: 0 10px;
 }
 
 .search-icon {

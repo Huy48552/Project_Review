@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-/* Nav main */
+/* Nav */
 .nav {
     height: 70px;
     display: flex;
@@ -102,7 +102,6 @@ body {
     border-radius: 10px;
     font-size: 24px;
     border-color: #0066b3;
-    padding: 0 10px;
 }
 
 .search-icon {
