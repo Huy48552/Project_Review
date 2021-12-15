@@ -132,6 +132,7 @@ body {
 /* Section Introduce */
 .introduce {
     background-color: rgb(255, 241, 241);
+    margin-bottom: 200px;
 }
 
 .introduce-heading {

@@ -132,6 +132,7 @@ body {
 /* Section Introduce */
 .introduce {
     background-color: rgb(255, 241, 241);
+    margin-bottom: 200px;
 }
 
 .introduce-heading {
@@ -151,7 +152,7 @@ body {
     background-color: rgb(245, 228, 228);
     background-color: #fff;
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .box img {
