@@ -68,81 +68,20 @@
             </div>
         </header>
 
-        <section class="introduce">
-            <div class="container">
-                <h3 class="introduce-heading">How it works</h3>
-
-                <div class="introduce-tutorial">
-                    <div class="box">
-                        <img
-                            src="https://www.reviewcompany.vn/public/media/home/img/icon_home_1.svg"
-                            alt=""
-                        />
-                        <h4>Tìm kiếm công ty</h4>
-                        <p>
-                            Tìm kiếm thông tin về những công ty đang tuyển dụng
-                            mà bạn quan tâm.
-                        </p>
-                    </div>
-                    <div class="box">
-                        <img
-                            src="https://www.reviewcompany.vn/public/media/home/img/icon_home_2.svg"
-                            alt=""
-                        />
-                        <h4>Tìm kiếm công ty</h4>
-                        <p>
-                            Tìm kiếm thông tin về những công ty đang tuyển dụng
-                            mà bạn quan tâm.
-                        </p>
-                    </div>
-                    <div class="box">
-                        <img
-                            src="https://www.reviewcompany.vn/public/media/home/img/icon_home_3.svg"
-                            alt=""
-                        />
-                        <h4>Tìm kiếm công ty</h4>
-                        <p>
-                            Tìm kiếm thông tin về những công ty đang tuyển dụng
-                            mà bạn quan tâm.
-                        </p>
-                    </div>
-                    <div class="box">
-                        <img
-                            src="https://www.reviewcompany.vn/public/media/home/img/icon_home_4.svg"
-                            alt=""
-                        />
-                        <h4>Tìm kiếm công ty</h4>
-                        <p>
-                            Tìm kiếm thông tin về những công ty đang tuyển dụng
-                            mà bạn quan tâm.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="delivery-time">
-                    <strong>
-                        <span>1</span>
-                        <span>5</span>
-                    </strong>
-                </div>
-                <p class="desc">
-                    Chỉ 15 phút, khoảng thời gian để bạn tận hưởng cốc cà phê và
-                    truy cập ReviewCompany để tìm hiểu về công ty mà bạn quan
-                    tâm hoặc đang tìm việc.
-                </p>
-            </div>
-        </section>
-
-        <!-- Effect scroll-nav -->
         <script>
-            var navbar = document.querySelector('.nav');
-
+            if (
+                document.body.scrollTop >= 200 ||
+                document.documentElement.scrollTop >= 200
+            )
+                var myNav = document.querySelector('.nav');
             window.onscroll = function () {
-                // pageYOffset or scrollY
-                if (window.pageYOffset > 0) {
-                    navbar.classList.add('scrolled');
+                'use strict';
+                if (document.body.scrollTop >= 100) {
+                    myNav.classList.add('nav-colored');
+                    myNav.classList.remove('nav-transparent');
                 } else {
-                    navbar.classList.remove('scrolled');
+                    myNav.classList.add('nav-transparent');
+                    myNav.classList.remove('nav-colored');
                 }
             };
         </script>
